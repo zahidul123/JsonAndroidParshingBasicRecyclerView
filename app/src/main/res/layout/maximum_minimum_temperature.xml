@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/DayOne"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="27dp"
+        android:text="Day one :" />
+
+    <TextView
+        android:id="@+id/weather1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_alignTop="@+id/DayOne"
+        android:text="weather "
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/Daytwo"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/DayOne"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="63dp"
+        android:text="Day two" />
+
+    <TextView
+        android:id="@+id/weather2"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/weather1"
+        android:layout_alignTop="@+id/Daytwo"
+        android:text="weather" />
+
+    <TextView
+        android:id="@+id/Daythree"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/DayOne"
+        android:layout_marginTop="107dp"
+        android:text="Day three" />
+
+    <TextView
+        android:id="@+id/weather3"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/weather2"
+        android:layout_alignTop="@+id/Daythree"
+        android:text="weather" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/DayOne"
+        android:layout_marginTop="178dp"
+        android:text="Max Temperature"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView11"
+        android:layout_marginEnd="12dp"
+        android:text="Min Temperature"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/maxtemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="215dp"
+        android:text="TextView"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/mintemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/maxtemp"
+        android:layout_marginEnd="74dp"
+        android:text="TextView"
+        android:textSize="15dp" />
+
+</RelativeLayout>
