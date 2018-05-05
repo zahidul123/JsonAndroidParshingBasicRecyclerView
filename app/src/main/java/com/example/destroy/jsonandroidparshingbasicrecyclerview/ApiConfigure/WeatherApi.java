@@ -55,6 +55,10 @@ public interface WeatherApi {
     @GET("api/d47b43401f960f47/forecast/q/BD/rajshahi.json")
     Call<PredictionList> getPredictionListraj();
 
+    //7days forcast...
+    @GET("api/d47b43401f960f47/forecast10day/q/BD/rajshahi.json")
+    Call<SevendaysHistory>getSevendaysHistoryraj();
+
     //current temperature
     @GET("api/d47b43401f960f47/conditions/q/BD/chittagong.json")
     Call<WeatherList>getWeatherchit();
@@ -70,6 +74,10 @@ public interface WeatherApi {
     //three days weather prediction
     @GET("api/d47b43401f960f47/forecast/q/BD/chittagong.json")
     Call<PredictionList> getPredictionListchit();
+
+    //7days forcast...
+    @GET("api/d47b43401f960f47/forecast10day/q/BD/chittagong.json")
+    Call<SevendaysHistory>getSevendaysHistorychit();
 
     //current temperature
     @GET("api/d47b43401f960f47/conditions/q/BD/comilla.json")
@@ -87,6 +95,10 @@ public interface WeatherApi {
     @GET("api/d47b43401f960f47/forecast/q/BD/comilla.json")
     Call<PredictionList> getPredictionListcom();
 
+    //7days forcast...
+    @GET("api/d47b43401f960f47/forecast10day/q/BD/comilla.json")
+    Call<SevendaysHistory>getSevendaysHistorcom();
+
     //current temperature
     @GET("api/d47b43401f960f47/conditions/q/BD/sylhet.json")
     Call<WeatherList>getWeathersyl();
@@ -103,6 +115,10 @@ public interface WeatherApi {
     @GET("api/d47b43401f960f47/forecast/q/BD/sylhet.json")
     Call<PredictionList> getPredictionListsyl();
 
+    //7days forcast...
+    @GET("api/d47b43401f960f47/forecast10day/q/BD/sylhet.json")
+    Call<SevendaysHistory>getSevendaysHistorysyl();
+
     //current temperature
     @GET("api/d47b43401f960f47/conditions/q/BD/khulna.json")
     Call<WeatherList>getWeatherkhul();
@@ -118,6 +134,10 @@ public interface WeatherApi {
     //three days weather prediction
     @GET("api/d47b43401f960f47/forecast/q/BD/khulna.json")
     Call<PredictionList> getPredictionListkhul();
+
+    //7days forcast...
+    @GET("api/d47b43401f960f47/forecast10day/q/BD/khulna.json")
+    Call<SevendaysHistory>getSevendaysHistorykhul();
 
     //current temperature
     @GET("api/d47b43401f960f47/conditions/q/BD/barisal.json")
@@ -150,9 +170,6 @@ public interface WeatherApi {
     //three days weather prediction
     @GET("api/d47b43401f960f47/forecast/q/BD/rangpur.json")
     Call<PredictionList> getPredictionListrang();
-
-
-
 
 
 }
